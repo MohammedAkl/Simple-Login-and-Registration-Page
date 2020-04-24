@@ -54,7 +54,9 @@ input[type=password] {
 <body>
   <?php
 session_start();
-  if (isset($_POST['submit'])){
+  if (isset($_POST['submit'])){	
+	// Change next line
+	// Change the database info according your database's info "name and password"
     $conn=mysqli_connect('localhost','root','','registration') or die(mysql_error());
     mysqli_select_db($conn,'registration');
     $email = $_POST['email'];
