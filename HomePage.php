@@ -32,18 +32,18 @@ body {
 <head>
   <title>HomePage</title>
 </head>
-<body>
+  <body>
 
-  <form name="Form" action="Login.php"  method="Post">
-  <h1 class="text-info">Welcome</h1>
-<button class="btn btn-primary" >Login</button>
-</form>
-  <p>
-        <h5 class="text-danger">Don't have an account ? </h5>
+    <form name="Form" action="Login.php"  method="Post">
+    <h1 class="text-info">Welcome</h1>
+  <button class="btn btn-primary" >Login</button>
+  </form>
+    <p>
+          <h5 class="text-danger">Don't have an account ? </h5>
 
-    <form action="Register.php"  method="Post">
-    <button class="btn btn-primary" >Register</button>
-</form>
-  </p>
-</body>
+      <form action="Register.php"  method="Post">
+      <button class="btn btn-primary" >Register</button>
+  </form>
+    </p>
+  </body>
 </html>
